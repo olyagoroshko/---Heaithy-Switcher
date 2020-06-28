@@ -1,0 +1,115 @@
+.promo-info-section{
+    height: 990px;
+}
+.promo-info-section__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-info-section__title{
+    margin-top: 80px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    strong{
+        font-weight: 700;
+    }
+}
+
+.promo-info-section__subtitle{
+    width: 670px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.promo-info-section__btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 70px;
+    width: 220px;
+    background-color: $green;
+    transition: 0.2s background-color ease-in;
+    border-radius: 43px;
+
+    &:hover{
+        background: $black;
+        transition: 0.2s background-color ease-in;
+
+    }
+}
+
+.promo-info-section__btn{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+    color: $black;
+    transition: 0.2s color ease-in;
+    cursor: pointer;
+
+    &:hover{
+        color: $green;
+        transition: 0.2s color ease-in;
+    }
+}
+
+.promo-info-section__info{
+    margin: 70px  90px 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-info-section__info-item{
+    width: 245px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.promo-info-section__info-item-icon{
+    margin-top: 5px;
+}
+
+.promo-info-section__info-item-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.promo-info-section__info-item-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFFFFF;
+
+}
+
+.promo-info-section__info-item-subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    color: #FFFFFF;
+    opacity: 0.5;
+}

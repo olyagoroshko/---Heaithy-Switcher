@@ -1,2 +1,208 @@
+@charset "UTF-8";
+/* line 1, ../../Проекты/верстки/Healthy Switcher/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../../Проекты/верстки/Healthy Switcher/scss/base/_base.scss */
+body {
+  background: #1A1A1A;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* line 11, ../../Проекты/верстки/Healthy Switcher/scss/base/_base.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1;
+}
+
+/* line 18, ../../Проекты/верстки/Healthy Switcher/scss/base/_base.scss */
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_header.scss */
+.header {
+  height: 90px;
+  background: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* line 8, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_header.scss */
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 0;
+}
+
+/* line 15, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_header.scss */
+.header__logo-text {
+  padding-bottom: 2px;
+}
+
+/* line 23, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_header.scss */
+.header__nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #FFFFFF;
+  transition: 0.2s color ease-in;
+  text-decoration: none;
+}
+
+/* line 31, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_header.scss */
+.header__nav-item + .header__nav-item {
+  margin-left: 40px;
+}
+
+/* line 35, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_header.scss */
+.header__nav-item:hover {
+  color: #34C759;
+  transition: 0.2s color ease-in;
+}
+
+/* line 1, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_body.scss */
+.header-big-img {
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%, #1A1A1A 100%), linear-gradient(0deg, rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url(/img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 1, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section {
+  height: 990px;
+}
+
+/* line 4, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 10, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__title {
+  margin-top: 80px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 21, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__title strong {
+  font-weight: 700;
+}
+
+/* line 26, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__subtitle {
+  width: 670px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+/* line 37, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 70px;
+  width: 220px;
+  background-color: #34C759;
+  transition: 0.2s background-color ease-in;
+  border-radius: 43px;
+}
+
+/* line 48, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__btn-wrapper:hover {
+  background: #1A1A1A;
+  transition: 0.2s background-color ease-in;
+}
+
+/* line 55, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__btn {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.15em;
+  color: #1A1A1A;
+  transition: 0.2s color ease-in;
+  cursor: pointer;
+}
+
+/* line 68, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__btn:hover {
+  color: #34C759;
+  transition: 0.2s color ease-in;
+}
+
+/* line 74, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__info {
+  margin: 70px  90px 0 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 81, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__info-item {
+  width: 245px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 90, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__info-item-icon {
+  margin-top: 5px;
+}
+
+/* line 94, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__info-item-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* line 101, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__info-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #FFFFFF;
+}
+
+/* line 109, ../../Проекты/верстки/Healthy Switcher/scss/blocks/_promo-info-section.scss */
+.promo-info-section__info-item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
 
 /*# sourceMappingURL=main.css.map */

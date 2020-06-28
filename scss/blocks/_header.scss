@@ -1,0 +1,39 @@
+.header{
+    height: 90px;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0;
+}
+
+.header__logo-text{
+    padding-bottom: 2px;
+}
+
+.header__nav{
+
+}
+
+.header__nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #FFFFFF;
+    transition: 0.2s color ease-in;
+    text-decoration: none;
+
+    & + &{
+        margin-left: 40px;
+    }
+
+    &:hover{
+        color: $green;
+        transition: 0.2s color ease-in;
+    }
+}
